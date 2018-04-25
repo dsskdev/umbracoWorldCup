@@ -340,6 +340,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\materialize\css\materialize.css" />
+    <Content Include="css\materialize\css\materialize.min.css" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -348,6 +350,21 @@
     <Content Include="config\imageprocessor\processing.config" />
     <Content Include="config\imageprocessor\cache.config" />
     <Content Include="App_Plugins\ModelsBuilder\package.manifest" />
+    <Content Include="css\materialize\fonts\roboto\Roboto-Thin.woff2" />
+    <Content Include="css\materialize\fonts\roboto\Roboto-Thin.woff" />
+    <Content Include="css\materialize\fonts\roboto\Roboto-Regular.woff2" />
+    <Content Include="css\materialize\fonts\roboto\Roboto-Regular.woff" />
+    <Content Include="css\materialize\fonts\roboto\Roboto-Medium.woff2" />
+    <Content Include="css\materialize\fonts\roboto\Roboto-Medium.woff" />
+    <Content Include="css\materialize\fonts\roboto\Roboto-Light.woff2" />
+    <Content Include="css\materialize\fonts\roboto\Roboto-Light.woff" />
+    <Content Include="css\materialize\fonts\roboto\Roboto-Bold.woff2" />
+    <Content Include="css\materialize\fonts\roboto\Roboto-Bold.woff" />
+    <None Include="scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="scripts\jquery-2.1.1.js" />
+    <Content Include="scripts\jquery-2.1.1.min.js" />
+    <Content Include="scripts\materialize\materialize.js" />
+    <Content Include="scripts\materialize\materialize.min.js" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
     <Content Include="Views\Partials\Grid\Editors\Rte.cshtml" />
@@ -378,6 +395,9 @@
     <Content Include="config\BackOfficeTours\getting-started.json" />
     <Content Include="config\applications.config" />
     <Content Include="config\404handlers.config" />
+    <Content Include="scripts\jquery-2.1.1.min.map" />
+    <Content Include="Views\Page.cshtml" />
+    <Content Include="Views\master.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -420,6 +440,9 @@
   <ItemGroup>
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

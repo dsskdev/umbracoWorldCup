@@ -1,0 +1,20 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "master.cshtml";
+}
+@{
+    Layout = "master.cshtml";
+    var image = Model.Content.GetPropertyValue<IPublishedContent>("featureImage");
+    var image2 = Umbraco.AssignedContentItem.GetPropertyValue<IPublishedContent>("featureImage");
+}
+
+<div class="row">
+    <h1>@Umbraco.Field("title")</h1>
+</div>
+<img class="responsive-img" src="@image.GetPropertyValue("umbracoFile")" />
+
+<div class="row">
+    @Umbraco.Field("mainContent")
+</div>
+
+<img class="responsive-img" src="@image2.GetPropertyValue("umbracoFile")" />
