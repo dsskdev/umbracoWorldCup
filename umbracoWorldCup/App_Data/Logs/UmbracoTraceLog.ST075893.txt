@@ -3520,3 +3520,28 @@ _shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needF
  2018-04-25 15:04:58,802 [P4752/D2/T10] INFO  umbraco.content - Saved Xml to file.
  2018-04-25 15:05:05,749 [P4752/D2/T9] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-04-24 15:05:05
  2018-04-25 15:05:05,754 [P4752/D2/T9] INFO  Umbraco.Web.Editors.AuthenticationController - User worldcup2018@hotmail.com from IP address ::1 has logged out
+ 2018-04-25 15:06:48,425 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-04-25 15:06:48,426 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-04-25 15:06:48,428 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-04-25 15:06:48,429 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-04-25 15:06:48,430 [P4752/D2/T16] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-04-25 15:06:48,433 [P4752/D2/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-04-25 15:06:48,433 [P4752/D2/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-04-25 15:06:48,434 [P4752/D2/T16] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2018-04-25 15:06:48,435 [P4752/D2/T16] INFO  Umbraco.Web.ExamineStartup - Complete (took 1ms)
+ 2018-04-25 15:06:48,436 [P4752/D2/T16] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-04-25 15:06:48,436 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-04-25 15:06:48,436 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-04-25 15:06:48,436 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2018-04-25 15:06:48,436 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2018-04-25 15:06:48,436 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2018-04-25 15:06:48,436 [P4752/D2/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-04-25 15:06:48,438 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-04-25 15:06:48,438 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-04-25 15:06:48,438 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2018-04-25 15:06:48,439 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2018-04-25 15:06:48,439 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-04-25 15:06:48,439 [P4752/D2/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-04-25 15:06:48,439 [P4752/D2/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2018-04-25 15:06:48,439 [P4752/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-04-25 15:06:48,439 [P4752/D2/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
